@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="工作空间">
+		<Project filename="rtspserver.cbp" active="1" />
+		<Project filename="httpserver.cbp" />
+		<Project filename="rtspclient.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

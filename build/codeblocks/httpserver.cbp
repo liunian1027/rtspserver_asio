@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="http_server" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="..\..\stage\bin\Debug\http_server" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\..\stage\bin" />
+				<Option object_output="..\..\tmp\mingw\obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="80 f:/tmp/web" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="..\..\stage\bin\Release\http_server" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\..\stage\bin" />
+				<Option object_output="..\..\tmp\mingw\obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="..\..\lib\asio-1.4.1\include" />
+			<Add directory="..\..\include" />
+		</Compiler>
+		<Linker>
+			<Add library="wsock32" />
+			<Add library="ws2_32" />
+		</Linker>
+		<Unit filename="..\..\include\dhlib\helper.hpp" />
+		<Unit filename="..\..\include\dhnet\dhasio.hpp" />
+		<Unit filename="..\..\include\dhnet\http\header.hpp" />
+		<Unit filename="..\..\include\dhnet\http\packet_helper.hpp" />
+		<Unit filename="..\..\include\dhnet\http\parser.hpp" />
+		<Unit filename="..\..\include\dhnet\http\protocol.hpp" />
+		<Unit filename="..\..\include\dhnet\http\reply.hpp" />
+		<Unit filename="..\..\include\dhnet\http\request.hpp" />
+		<Unit filename="..\..\include\dhnet\http\to_packet.hpp" />
+		<Unit filename="..\..\include\dhnet\tcp\async_server.hpp" />
+		<Unit filename="..\..\src\http_server\main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

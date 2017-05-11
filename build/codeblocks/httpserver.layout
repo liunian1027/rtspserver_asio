@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\include\dhlib\helper.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="387" topLine="0" />
+	</File>
+	<File name="..\..\include\dhnet\dhasio.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="108" topLine="0" />
+	</File>
+	<File name="..\..\include\dhnet\http\header.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="914" topLine="50" />
+	</File>
+	<File name="..\..\include\dhnet\http\parser.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="874" topLine="28" />
+	</File>
+	<File name="..\..\include\dhnet\http\protocol.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="9222" topLine="0" />
+	</File>
+	<File name="..\..\include\dhnet\http\reply.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="3377" topLine="28" />
+	</File>
+	<File name="..\..\include\dhnet\http\request.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="577" topLine="62" />
+	</File>
+	<File name="..\..\include\dhnet\http\to_packet.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1617" topLine="90" />
+	</File>
+	<File name="..\..\include\dhnet\tcp\async_server.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="533" topLine="118" />
+	</File>
+	<File name="..\..\src\http_server\main.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2284" topLine="75" />
+	</File>
+</CodeBlocks_layout_file>

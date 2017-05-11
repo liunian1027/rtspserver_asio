@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\include\CompLib\RTP\CRTPPacket.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2615" topLine="97" />
+	</File>
+	<File name="..\..\include\CompLib\RTP\CRTPPacket.h" open="0" top="0" tabpos="0">
+		<Cursor position="2842" topLine="70" />
+	</File>
+	<File name="..\..\include\dhfile\dhav\frame_format.hpp" open="0" top="0" tabpos="7">
+		<Cursor position="254" topLine="93" />
+	</File>
+	<File name="..\..\include\dhfile\dhav\frame_stream.hpp" open="1" top="0" tabpos="6">
+		<Cursor position="2789" topLine="67" />
+	</File>
+	<File name="..\..\include\dhfile\dhav\nal_stream.hpp" open="1" top="0" tabpos="7">
+		<Cursor position="1700" topLine="47" />
+	</File>
+	<File name="..\..\include\dhlib\helper.hpp" open="1" top="0" tabpos="1">
+		<Cursor position="699" topLine="0" />
+	</File>
+	<File name="..\..\include\dhnet\http\header.hpp" open="0" top="0" tabpos="7">
+		<Cursor position="828" topLine="35" />
+	</File>
+	<File name="..\..\include\dhnet\http\packet_helper.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="3194" topLine="87" />
+	</File>
+	<File name="..\..\include\dhnet\http\protocol.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="7536" topLine="237" />
+	</File>
+	<File name="..\..\include\dhnet\http\reply.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="1262" topLine="25" />
+	</File>
+	<File name="..\..\include\dhnet\http\request.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="1792" topLine="62" />
+	</File>
+	<File name="..\..\include\dhnet\http\to_packet.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="2162" topLine="88" />
+	</File>
+	<File name="..\..\include\dhnet\rtsp\http.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="557" topLine="10" />
+	</File>
+	<File name="..\..\include\dhnet\rtsp\nal_fragment.hpp" open="1" top="0" tabpos="5">
+		<Cursor position="2125" topLine="111" />
+	</File>
+	<File name="..\..\include\dhnet\rtsp\parser.hpp" open="1" top="0" tabpos="2">
+		<Cursor position="2580" topLine="170" />
+	</File>
+	<File name="..\..\include\dhnet\rtsp\reply_factory.hpp" open="1" top="0" tabpos="3">
+		<Cursor position="2869" topLine="98" />
+	</File>
+	<File name="..\..\include\dhnet\rtsp\rtp_producer.hpp" open="1" top="0" tabpos="4">
+		<Cursor position="3652" topLine="15" />
+	</File>
+	<File name="..\..\include\dhnet\tcp\async_server.hpp" open="0" top="0" tabpos="8">
+		<Cursor position="1455" topLine="0" />
+	</File>
+	<File name="..\..\src\rtsp_server\debug.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="20" topLine="0" />
+	</File>
+	<File name="..\..\src\rtsp_server\main.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="195" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

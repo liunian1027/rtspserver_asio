@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rtsp_server" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="..\..\stage\bin\Debug\rtsp_server" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\..\stage\bin" />
+				<Option object_output="..\..\tmp\mingw\obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="9099 f:/tmp/web" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="..\..\stage\bin\Release\rtsp_server" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\..\stage\bin" />
+				<Option object_output="..\..\tmp\mingw\obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="..\..\lib\asio-1.4.1\include" />
+			<Add directory="..\..\include" />
+		</Compiler>
+		<Linker>
+			<Add library="wsock32" />
+			<Add library="ws2_32" />
+		</Linker>
+		<Unit filename="..\..\include\CompLib\RTP\CRTPPacket.cpp" />
+		<Unit filename="..\..\include\CompLib\RTP\CRTPPacket.h" />
+		<Unit filename="..\..\include\CompLib\RTP\RTPProtocol.h" />
+		<Unit filename="..\..\include\CompLib\RTP\RTPStructs.cpp" />
+		<Unit filename="..\..\include\CompLib\RTP\RTPStructs.h" />
+		<Unit filename="..\..\include\dhfile\dhav\frame_format.hpp" />
+		<Unit filename="..\..\include\dhfile\dhav\frame_stream.hpp" />
+		<Unit filename="..\..\include\dhfile\dhav\nal_stream.hpp" />
+		<Unit filename="..\..\include\dhlib\helper.hpp" />
+		<Unit filename="..\..\include\dhnet\http\header.hpp" />
+		<Unit filename="..\..\include\dhnet\http\packet_helper.hpp" />
+		<Unit filename="..\..\include\dhnet\http\protocol.hpp" />
+		<Unit filename="..\..\include\dhnet\http\reply.hpp" />
+		<Unit filename="..\..\include\dhnet\http\request.hpp" />
+		<Unit filename="..\..\include\dhnet\http\to_packet.hpp" />
+		<Unit filename="..\..\include\dhnet\rtsp\http.hpp" />
+		<Unit filename="..\..\include\dhnet\rtsp\nal_fragment.hpp" />
+		<Unit filename="..\..\include\dhnet\rtsp\parser.hpp" />
+		<Unit filename="..\..\include\dhnet\rtsp\reply_factory.hpp" />
+		<Unit filename="..\..\include\dhnet\rtsp\rtp_producer.hpp" />
+		<Unit filename="..\..\include\dhnet\tcp\async_server.hpp" />
+		<Unit filename="..\..\src\rtsp_server\debug.cpp" />
+		<Unit filename="..\..\src\rtsp_server\main.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
